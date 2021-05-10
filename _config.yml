@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 markdown: GFM
+plugins:
+  - jekyll-figure
