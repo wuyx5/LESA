@@ -18,6 +18,13 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
 
 ## Elastic Shape Analysis
 
+First, we compute the global mean for ventricle surfaces and left hippocampus surfaces.
+
+<figure>
+  <img src="./Figures/ventricle_mean.jpg" width="250" alt="Ventricle mean" title="Ventricle mean">
+  <figcaption>Ventricle mean surface</figcaption>
+</figure> 
+
 ## Densely Fitting
 
 ## Results
