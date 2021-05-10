@@ -17,9 +17,7 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
   <figcaption>Mean hippocampus surface with AD</figcaption>
 </figure>
 
-{: style="text-align:center"}
-abc
 <figure>
-  <p><img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution"></p>
-  <figcaption><em>Fig.1</em> Age-scan distribution</figcaption>
+  <p align="center"><img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution"></p>
+  <figcaption align="center"><em>Fig.1</em> Age-scan distribution</figcaption>
 </figure>
