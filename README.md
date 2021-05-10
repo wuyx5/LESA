@@ -31,6 +31,7 @@ Then, with global mean surfaces and aligned individual surfaces, we run PCA. For
 ## Densely Fitting
 We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
 1) Ventricle\
+<img src="./Figures/ventricle_area_sparse.png" width="300" alt="ventricle_area_sparse" title="ventricle_area_sparse"> <img src="./Figures/ventricle_area_PACE.png" width="300" alt="ventricle_area_PACE" title="ventricle_area_PACE"> <img src="./Figures/ventricle_area_MGCV.png" width="300" alt="ventricle_area_MGCV" title="ventricle_area_MGCV">
 
 3) Left hippocampus\
 ## Results
