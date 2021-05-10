@@ -9,3 +9,4 @@ We include ADNI 2 and ADNI GO datasets. In this research, we focus on ventricle 
 
 <img src="/Figures/Picture1.jpg" width="500"/> <img src="/Figures/hipp_AD_mean.gif" width="500"/>
 
+![drawing](/Figures/Picture1.jpg){ width=500}
