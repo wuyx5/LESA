@@ -18,6 +18,6 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
 </figure>
 
 <figure>
-  <p align="center"><img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution"></p>
+  <p><img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution"></p>
   <p align="center"><figcaption><em>Fig.1</em> Age-scan distribution</figcaption></p>
 </figure>
