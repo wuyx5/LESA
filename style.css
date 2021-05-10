@@ -1,6 +1,4 @@
-<html>
-<head>
-<style>
+
 figure {
   border: 1px #cccccc solid;
   padding: 4px;
@@ -14,7 +12,12 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
-</style>
-</head>
 
-</html>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
