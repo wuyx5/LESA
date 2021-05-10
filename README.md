@@ -7,5 +7,5 @@ Longitudinal neuroimaging data plays a critical role in mapping the neural devel
 
 In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on ventricle and left hippocampus surfaces.
 
-<img src="./Figures/Picture1.jpg" width="250" title="Age-scan distribution"/> <img src="./Figures/hipp_AD_mean.gif" width="250"/>
+<img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution"/> <img src="./Figures/hipp_AD_mean.gif" width="250"/>
 
