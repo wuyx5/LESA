@@ -8,7 +8,7 @@ Longitudinal neuroimaging data plays a critical role in mapping the neural devel
 In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on ventricle and left hippocampus surfaces.
 
 <figure>
-  <img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution">
+  <img src="./Figures/age-scan_distribution.png" width="250" alt="Age-scan distribution" title="Age-scan distribution">
   <figcaption>Age-scan distribution</figcaption>
 </figure> 
 
@@ -23,10 +23,10 @@ First, we compute the global mean for ventricle surfaces and left hippocampus su
 Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
 
 1) Ventricle\
-<img src="./Figures/ventricle_variability_explained.jpg" width="300" alt="Ventricle_variability_explained" title="Ventricle_variability_explained"> <img src="./Figures/ventricle_1st_sparse.jpg" width="300" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.jpg" width="300" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse">
+<img src="./Figures/ventricle_variability_explained.png" width="300" alt="Ventricle_variability_explained" title="Ventricle_variability_explained"> <img src="./Figures/ventricle_1st_sparse.png" width="300" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="300" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse">
 
-2) Left hippocampus
-
+2) Left hippocampus\
+<img src="./Figures/hippocampus_variability_explained.png" width="300" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="300" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="300" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse">
 
 ## Densely Fitting
 
