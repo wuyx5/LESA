@@ -37,5 +37,6 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/hippocampus_area_sparse.png" width="300" alt="hippocampus_area_sparse" title="hippocampus_area_sparse"> <img src="./Figures/hippocampus_area_PACE.png" width="300" alt="hippocampus_area_PACE" title="hippocampus_area_PACE"> <img src="./Figures/hippocampus_area_MGCV.png" width="300" alt="hippocampus_area_MGCV" title="hippocampus_area_MGCV">
 
 ## Results
-1) Ventricle surface trajectories:
-2) Left hippocampus surface trajectories:
+1) Ventricle surface trajectories:\
+2) Left hippocampus surface trajectories:\
+   <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="400" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="400" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
