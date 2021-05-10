@@ -1,7 +1,6 @@
 #  Longitudinal Elastic Shape Analysis of Brain Subcortical Structures
 
 <style>
-
 figcaption {
   background-color: black;
   color: white;
