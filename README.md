@@ -20,7 +20,7 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
 
 First, we compute the global mean for ventricle surfaces and left hippocampus surfaces.
 
-<img src="./Figures/ventricle_mean.jpg" width="300" alt="Ventricle mean" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.jpg" width="300" alt="Hippocampus mean" title="Hippocampus mean">
+<img src="./Figures/ventricle_mean.jpg" width="300" alt="Ventricle mean surface" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.jpg" width="300" alt="Hippocampus mean surface" title="Hippocampus mean">
 
 ## Densely Fitting
 
