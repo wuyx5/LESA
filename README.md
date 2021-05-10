@@ -29,5 +29,8 @@ Then, with global mean surfaces and aligned individual surfaces, we run PCA. For
 <img src="./Figures/hippocampus_variability_explained.png" width="300" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="300" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="300" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse">
 
 ## Densely Fitting
+We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
+1) Ventricle\
 
+3) Left hippocampus\
 ## Results
