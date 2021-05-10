@@ -11,10 +11,7 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
   <img src="./Figures/Picture1.jpg" width="250" alt="Age-scan distribution" title="Age-scan distribution">
   <figcaption>Age-scan distribution</figcaption>
 </figure> 
-<figure>
-  <img src="./Figures/hipp_AD_mean.gif" width="250" alt="hipp_AD_mean" title="hipp_AD_mean">
-  <figcaption>Mean hippocampus surface with AD</figcaption>
-</figure>
+<img src="./Figures/hist_scan_times.jpg" width="250" alt="hist_scan_times" title="hist_scan_times"> <img src="./Figures/hist_scan_ages.jpg" width="250" alt="hist_scan_ages" title="hist_scan_ages">
 
 ## Elastic Shape Analysis
 
