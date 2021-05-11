@@ -50,6 +50,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 
 6) Performance comparison:\
    Mean squared error
+   <table>
    
   |          |     PACE    |      MGCV    |     PACE    |      MGCV    |
   | -------- | ----------- | ------------ | ----------- | ------------ |
@@ -66,6 +67,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
   | **....** |    ....     |      ....    |     ....    |      ....    |
   | **Average PC MSE** | **0.1233** | 0.1301 |  **0.0943**  |  0.0984  |
   
+  </table>
 
   
 ## Results
