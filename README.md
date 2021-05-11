@@ -43,7 +43,9 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 4) Left hippocampus principal coefficients trajectories:\
    <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="hippocampus_1st_sparse"> <img src="./Figures/hippocampus_1st_PACE.png" width="250" alt="hippocampus_1st_PACE" title="hippocampus_1st_PACE"> <img src="./Figures/hippocampus_1st_MGCV.png" width="250" alt="hippocampus_1st_MGCV" title="hippocampus_1st_MGCV">
    <img src="./Figures/hippocampus_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <img src="./Figures/hippocampus_2nd_PACE.png" width="250" alt="hippocampus_2nd_PACE" title="hippocampus_2nd_PACE"> <img src="./Figures/hippocampus_2nd_MGCV.png" width="250" alt="hippocampus_2nd_MGCV" title="hippocampus_2nd_MGCV">
-   
+
+5) Some individual fitting examples:\
+
 ## Results
 1) Global ventricle surface trajectories:\
    <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory">
