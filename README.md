@@ -8,23 +8,24 @@ Longitudinal neuroimaging data plays a critical role in mapping the neural devel
 
 In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on ventricle and left hippocampus surfaces.
   
-   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(a) Age-scan distribution*<br/>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(a) Age-scan distribution*<br/>
     <img src="./Figures/age-scan_distribution.png" width="400" alt="Age-scan distribution" title="Age-scan distribution">
 
    *(b) Histogram of total scan times for each subject*    &nbsp; &nbsp; &nbsp; *(c) Histogram of subject ages for each scan*    
-    &nbsp; &nbsp; <img src="./Figures/hist_scan_times.png" width="300" alt="hist_scan_times" title="hist_scan_times"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="./Figures/hist_scan_ages.png" width="300" alt="hist_scan_ages" title="hist_scan_ages">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="./Figures/hist_scan_times.png" width="300" alt="hist_scan_times" title="hist_scan_times"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="./Figures/hist_scan_ages.png" width="300" alt="hist_scan_ages" title="hist_scan_ages">
 
 ## Elastic Shape Analysis
 
 First, we compute the global Karcher mean for ventricle surfaces and left hippocampus surfaces.
 
   <img src="./Figures/ventricle_mean.png" width="300" alt="Ventricle mean surface" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.png" width="300" alt="Hippocampus mean surface" title="Hippocampus mean"> <br/>
-  &nbsp; *(a) Ventricle Karcher mean surface* &nbsp; &nbsp; &nbsp; *(b) Left hippocampus Karcher mean surface*
+  &nbsp; *(a) Ventricle Karcher mean surface* &nbsp; &nbsp; &nbsp; &nbsp; *(b) Left hippocampus Karcher mean surface*
 
 Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
 
 1) **Ventricle**\
-   <img src="./Figures/ventricle_variability_explained.png" width="250" alt="Ventricle_variability_explained" title="Ventricle_variability_explained"> <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse">
+   <img src="./Figures/ventricle_variability_explained.png" width="250" alt="Ventricle_variability_explained" title="Ventricle_variability_explained"> <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse"> <br/>
+   &nbsp; *(a) Cumulative variability explained* &nbsp; &nbsp; &nbsp; *(b) Sparse 1st PC coefficients* &nbsp; &nbsp; &nbsp; *(c) Sparse 2nd PC coefficients*
 
 2) **Left hippocampus**\
    <img src="./Figures/hippocampus_variability_explained.png" width="250" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse">
