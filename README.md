@@ -51,11 +51,11 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 6) Performance comparison:\
    Mean squared error
    
-
+  ||        Ventricle       || Left hippocampus ||
   |      |   PACE  |   MGCV  |   PACE  |  MGCV   |
-  | ---- |   ----  |   ----  |   ----  |  ----   |
+
   | Area | 454.1950| 266.7515| 87.7912 | 69.9117 |
-  | ---- |   ----  |   ----  |   ----  |  ----   |
+
   | PC1  |  0.0898 |  0.1072 |  0.0427 | 0.0443  |
   | PC2  |  0.1122 |  0.1280 |  0.0815 | 0.0865  |
   | PC3  | 0.0919  |  0.0967 |  0.0766 | 0.0801  |
@@ -67,7 +67,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
   | PC9  | 0.0591  |  0.0591 |  0.1475 | 0.1557  |
   | PC10 | 0.1290  |  0.1406 |  0.0675 | 0.0688  |
   | .... |  ....   |   ....  |   ....  |   ....  |
-  | ---- |   ----  |   ----  |   ----  |  ----   |
+
   | Average PC MSE| **0.1233** | 0.1301 | **0.0943** | 0.0984 |
   
 
