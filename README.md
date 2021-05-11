@@ -8,7 +8,7 @@ Longitudinal neuroimaging data plays a critical role in mapping the neural devel
 
 In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on ventricle and left hippocampus surfaces.
   
-   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(a) Age-scan distribution*<br/>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(a) Age-scan distribution*<br/>
     <img src="./Figures/age-scan_distribution.png" width="400" alt="Age-scan distribution" title="Age-scan distribution">
 
    *(b) Histogram of total scan times for each subject*    &nbsp; &nbsp; &nbsp; *(c) Histogram of subject ages for each scan*    
@@ -18,7 +18,7 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
 
 First, we compute the global Karcher mean for ventricle surfaces and left hippocampus surfaces.
 
-  <img src="./Figures/ventricle_mean.png" width="300" alt="Ventricle mean surface" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.png" width="300" alt="Hippocampus mean surface" title="Hippocampus mean">
+  <img src="./Figures/ventricle_mean.png" width="300" alt="Ventricle mean surface" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.png" width="300" alt="Hippocampus mean surface" title="Hippocampus mean"> <br/>
   &nbsp; *(a) Ventricle Karcher mean surface* &nbsp; &nbsp; &nbsp; *(b) Left hippocampus Karcher mean surface*
 
 Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
