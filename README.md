@@ -48,6 +48,29 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/ventricle_indexample_1.png" width="250" alt="ventricle_indexample_1" title="ventricle_indexample_1"> <img src="./Figures/ventricle_indexample_2.png" width="250" alt="ventricle_indexample_2" title="ventricle_indexample_2"> <img src="./Figures/ventricle_indexample_3.png" width="250" alt="ventricle_indexample_3" title="ventricle_indexample_3">
    <img src="./Figures/hippocampus_indexample_1.png" width="250" alt="hippocampus_indexample_1" title="hippocampus_indexample_1"> <img src="./Figures/hippocampus_indexample_2.png" width="250" alt="hippocampus_indexample_2" title="hippocampus_indexample_2"> <img src="./Figures/hippocampus_indexample_3.png" width="250" alt="hippocampus_indexample_3" title="hippocampus_indexample_3">
 
+6) Performance comparison:\
+   Mean squared error
+  |         Ventricle        | Left hippocampus  |
+	|      |   PACE  |   MGCV  |   PACE  |  MGCV   |
+  | ---- |   ----  |   ----  |   ----  |  ----   |
+  | Area | 454.1950| 266.7515| 87.7912 | 69.9117 |
+  | ---- |   ----  |   ----  |   ----  |  ----   |
+  | PC1  |  0.0898 |  0.1072 |  0.0427 | 0.0443  |
+  | PC2  |  0.1122 |  0.1280 |  0.0815 | 0.0865  |
+  | PC3  | 0.0919  |  0.0967 |  0.0766 | 0.0801  |
+  | PC4  | 0.1298  |  0.1351 |  0.0554 | 0.0584  |
+  | PC5  | 0.0944  |  0.0987 |  0.1034 | 0.1106  |
+  | PC6  | 0.1835  |  0.1967 |  0.1068 | 0.1125  | 
+  | PC7  | 0.1728  |  0.1800 |  0.2110 | 0.2254  |
+  | PC8  | 0.1453  |  0.1443 |  0.1337 | 0.1380  |
+  | PC9  | 0.0591  |  0.0591 |  0.1475 | 0.1557  |
+  | PC10 | 0.1290  |  0.1406 |  0.0675 | 0.0688  |
+  | .... |  ....   |   ....  |   ....  |   ....  |
+  | ---- |   ----  |   ----  |   ----  |  ----   |
+  | Average PC MSE| **0.1233** | 0.1301 | **0.0943** | 0.0984 |
+  
+
+  
 ## Results
 1) Global ventricle surface trajectories:\
    <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory">
