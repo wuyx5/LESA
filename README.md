@@ -13,7 +13,7 @@ In this research, we include ADNI 2 and ADNI GO dataset. We mainly focus on vent
   <figcaption>Age-scan distribution</figcaption>
 </figure> 
 
-<img src="./Figures/hist_scan_times.png" width="300" alt="hist_scan_times" title="hist_scan_times"> <img src="./Figures/hist_scan_ages.png" width="300" alt="hist_scan_ages" title="hist_scan_ages">
+<p class="aligncenter"> <img src="./Figures/hist_scan_times.png" width="300" alt="hist_scan_times" title="hist_scan_times"> <img src="./Figures/hist_scan_ages.png" width="300" alt="hist_scan_ages" title="hist_scan_ages"> </p>
 
 ## Elastic Shape Analysis
 
