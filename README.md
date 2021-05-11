@@ -51,7 +51,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 6) Performance comparison:\
    Mean squared error
    
-  ||        Ventricle       || Left hippocampus ||
+
   |      |   PACE  |   MGCV  |   PACE  |  MGCV   |
   | ---- |   ----  |   ----  |   ----  |  ----   |
   | Area | 454.1950| 266.7515| 87.7912 | 69.9117 |
