@@ -35,19 +35,27 @@ Then, with global mean surfaces and aligned individual surfaces, we run PCA. For
 
 We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
 1) **Ventricle area trajectories:**\
-   <img src="./Figures/ventricle_area_sparse.png" width="250" alt="ventricle_area_sparse" title="ventricle_area_sparse"> <img src="./Figures/ventricle_area_PACE.png" width="250" alt="ventricle_area_PACE" title="ventricle_area_PACE"> <img src="./Figures/ventricle_area_MGCV.png" width="250" alt="ventricle_area_MGCV" title="ventricle_area_MGCV">
-
+   <img src="./Figures/ventricle_area_sparse.png" width="250" alt="ventricle_area_sparse" title="ventricle_area_sparse"> <img src="./Figures/ventricle_area_PACE.png" width="250" alt="ventricle_area_PACE" title="ventricle_area_PACE"> <img src="./Figures/ventricle_area_MGCV.png" width="250" alt="ventricle_area_MGCV" title="ventricle_area_MGCV"><br/>
+  *(a) Sparse area trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+  
 2) **Left hippocampus area trajectories:**\
-   <img src="./Figures/hippocampus_area_sparse.png" width="250" alt="hippocampus_area_sparse" title="hippocampus_area_sparse"> <img src="./Figures/hippocampus_area_PACE.png" width="250" alt="hippocampus_area_PACE" title="hippocampus_area_PACE"> <img src="./Figures/hippocampus_area_MGCV.png" width="250" alt="hippocampus_area_MGCV" title="hippocampus_area_MGCV">
-
+   <img src="./Figures/hippocampus_area_sparse.png" width="250" alt="hippocampus_area_sparse" title="hippocampus_area_sparse"> <img src="./Figures/hippocampus_area_PACE.png" width="250" alt="hippocampus_area_PACE" title="hippocampus_area_PACE"> <img src="./Figures/hippocampus_area_MGCV.png" width="250" alt="hippocampus_area_MGCV" title="hippocampus_area_MGCV"><br/>
+  *(a) Sparse area trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+  
 3) **Ventricle principal coefficients trajectories:**\
-   <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_1st_PACE.png" width="250" alt="ventricle_1st_PACE" title="ventricle_1st_PACE"> <img src="./Figures/ventricle_1st_MGCV.png" width="250" alt="ventricle_1st_MGCV" title="ventricle_1st_MGCV">
-   <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse"> <img src="./Figures/ventricle_2nd_PACE.png" width="250" alt="ventricle_2nd_PACE" title="ventricle_2nd_PACE"> <img src="./Figures/ventricle_2nd_MGCV.png" width="250" alt="ventricle_2nd_MGCV" title="ventricle_2nd_MGCV">
+   <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_1st_PACE.png" width="250" alt="ventricle_1st_PACE" title="ventricle_1st_PACE"> <img src="./Figures/ventricle_1st_MGCV.png" width="250" alt="ventricle_1st_MGCV" title="ventricle_1st_MGCV"><br/>
+   *(a) Sparse 1st PC trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+   
+   <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse"> <img src="./Figures/ventricle_2nd_PACE.png" width="250" alt="ventricle_2nd_PACE" title="ventricle_2nd_PACE"> <img src="./Figures/ventricle_2nd_MGCV.png" width="250" alt="ventricle_2nd_MGCV" title="ventricle_2nd_MGCV"><br/>
+   *(a) Sparse 2nd PC trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
    
 4) **Left hippocampus principal coefficients trajectories:**\
-   <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="hippocampus_1st_sparse"> <img src="./Figures/hippocampus_1st_PACE.png" width="250" alt="hippocampus_1st_PACE" title="hippocampus_1st_PACE"> <img src="./Figures/hippocampus_1st_MGCV.png" width="250" alt="hippocampus_1st_MGCV" title="hippocampus_1st_MGCV">
-   <img src="./Figures/hippocampus_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <img src="./Figures/hippocampus_2nd_PACE.png" width="250" alt="hippocampus_2nd_PACE" title="hippocampus_2nd_PACE"> <img src="./Figures/hippocampus_2nd_MGCV.png" width="250" alt="hippocampus_2nd_MGCV" title="hippocampus_2nd_MGCV">
-
+   <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="hippocampus_1st_sparse"> <img src="./Figures/hippocampus_1st_PACE.png" width="250" alt="hippocampus_1st_PACE" title="hippocampus_1st_PACE"> <img src="./Figures/hippocampus_1st_MGCV.png" width="250" alt="hippocampus_1st_MGCV" title="hippocampus_1st_MGCV"><br/>
+   *(a) Sparse 1st PC trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+   
+   <img src="./Figures/hippocampus_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <img src="./Figures/hippocampus_2nd_PACE.png" width="250" alt="hippocampus_2nd_PACE" title="hippocampus_2nd_PACE"> <img src="./Figures/hippocampus_2nd_MGCV.png" width="250" alt="hippocampus_2nd_MGCV" title="hippocampus_2nd_MGCV"><br/>
+   *(a) Sparse 2nd PC trajectories* &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+   
 5) **Some individual fitting examples:**\
    <img src="./Figures/ventricle_indexample_1.png" width="250" alt="ventricle_indexample_1" title="ventricle_indexample_1"> <img src="./Figures/ventricle_indexample_2.png" width="250" alt="ventricle_indexample_2" title="ventricle_indexample_2"> <img src="./Figures/ventricle_indexample_3.png" width="250" alt="ventricle_indexample_3" title="ventricle_indexample_3">
    <img src="./Figures/hippocampus_indexample_1.png" width="250" alt="hippocampus_indexample_1" title="hippocampus_indexample_1"> <img src="./Figures/hippocampus_indexample_2.png" width="250" alt="hippocampus_indexample_2" title="hippocampus_indexample_2"> <img src="./Figures/hippocampus_indexample_3.png" width="250" alt="hippocampus_indexample_3" title="hippocampus_indexample_3">
