@@ -49,9 +49,9 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/hippocampus_indexample_1.png" width="250" alt="hippocampus_indexample_1" title="hippocampus_indexample_1"> <img src="./Figures/hippocampus_indexample_2.png" width="250" alt="hippocampus_indexample_2" title="hippocampus_indexample_2"> <img src="./Figures/hippocampus_indexample_3.png" width="250" alt="hippocampus_indexample_3" title="hippocampus_indexample_3">
 
 6) Performance comparison:\
-   Mean squared error\
+   Mean squared error
    
-  |         Ventricle        | Left hippocampus  |
+  ||        Ventricle       ||| Left hippocampus||
   |      |   PACE  |   MGCV  |   PACE  |  MGCV   |
   | ---- |   ----  |   ----  |   ----  |  ----   |
   | Area | 454.1950| 266.7515| 87.7912 | 69.9117 |
