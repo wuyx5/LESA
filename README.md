@@ -64,7 +64,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
   | **PC9**  | **0.0591**  |    0.0591    |  **0.1475** |    0.1557    |
   | **PC10** | **0.1290**  |    0.1406    |  **0.0675** |    0.0688    |
   | **....** |    ....     |      ....    |     ....    |      ....    |
-  | Average PC MSE |  **0.1233**  |  0.1301  |  **0.0943**  |  0.0984  |
+  | **Average PC MSE** | **0.1233** | 0.1301 |  **0.0943**  |  0.0984  |
   
 
   
