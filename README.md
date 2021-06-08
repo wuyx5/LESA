@@ -6,7 +6,7 @@ Longitudinal neuroimaging data plays a critical role in mapping the neural devel
 
 ## Pipeline
 
-<img src="./Figures/Pipeline.png" width="600" alt="pipeline" title="Pipeline">
+<img src="./Figures/Pipeline.png" width="1000" alt="pipeline" title="Pipeline">
 
 ## Data
 
