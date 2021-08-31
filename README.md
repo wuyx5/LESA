@@ -107,10 +107,10 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 2) **Covariates’ effect to the surface trajectory:**\
    **Lateral ventricle:**\
    *Exploration of the covariates’ effect to the surface trajectory on ADNIGO2 dataset. Panel (i) shows results for the left ventricle and panel (ii) shows results for the left hippocampus. In each sub-panel (a), we fixed gender, marriage status, education years and ApoE4 type and varied the diagnosis status. In each sub-panel (b), we fixed gender, marriage status, education years and diagnosis status, and varied the ApoE4 type.*<br/>
-   <img src="./Figures/ADNI_LV_Regression_Control.jpg" width="600" alt="ventricle_regression_control" title="ventricle_regression_control"><br/>
+   <img src="./Figures/ADNI_LV_Regression_Control.jpg" width="650" alt="ventricle_regression_control" title="ventricle_regression_control"><br/>
    
    *(c) Each sub-panel shows the reconstructed shape trajectory by fixing gender, marriage status, education years and ApoE4 type, while varying the diagnosis status. Color on each surface represents shape difference compared with the NC surface at the same age:*<br/>
-   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
+   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
     <img src="./Figures/lv_AD_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
     <img src="./Figures/lv_MCI_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
     <img src="./Figures/lv_NL_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
