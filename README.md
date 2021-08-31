@@ -69,13 +69,13 @@ We densely fit area trajectories and principal coefficients trajectories with tw
     </table>
 
 ## Life-span Shape Change
-
-   <img src="./Figures/Lifespan_Trajectory.jpg" width="400" alt="lifespan_trajectory" title="lifespan_trajectory"><br/>
    *Life-span (22-90 years old) left ventricle and left hippocampus growth trajectories. (a-b) Observed sparse data and fitted mean trajectories (black solid line).*<br/> 
+   <img src="./Figures/Lifespan_Trajectory.jpg" width="400" alt="lifespan_trajectory" title="lifespan_trajectory"><br/>
+   
    *Reconstructed life-span mean surface trajectories. Color on each surface indicates the surface’s deformation size compared with the surface at age 22:*<br/> 
-   *&nbsp; (c) Lateral Ventricle; &nbsp; &nbsp; &nbsp; &nbsp; (d) Left Hippocampus.* <br/>
-   <img src="./Figures/lv_lifespan_trajectory_22-90.gif" width="200" alt="ventricle_lifespan_trajectory" title="ventricle_lifespan_trajectory">
-   <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="200" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory">
+   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(c) Lateral Ventricle; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (d) Left Hippocampus.* <br/>
+   <img src="./Figures/lv_lifespan_trajectory_22-90.gif" width="300" alt="ventricle_lifespan_trajectory" title="ventricle_lifespan_trajectory">
+   <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="300" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory">
    
 2) **Global left hippocampus surface trajectories:**\
    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
