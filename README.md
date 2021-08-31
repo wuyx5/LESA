@@ -22,7 +22,8 @@ Then, with global mean surfaces and aligned individual surfaces, we run PCA. For
 
 1) **Ventricle**\
    <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
-  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <a href="https://www.codecogs.com/eqnedit.php?latex=f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" title="f_{\mu}+t\sqrt{\lambda_{1}}PC_{1}" /></a>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
+  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}
+  <a href="https://www.codecogs.com/eqnedit.php?latex=f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" title="f_{\mu}+t\sqrt{\lambda_{1}}PC_{1}" /></a>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
 2) **Left hippocampus**\
    <img src="./Figures/hippocampus_variability_explained.png" width="250" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <br/>
