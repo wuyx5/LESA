@@ -13,7 +13,7 @@
 We have applied LESA to study three different longitudinal brain imaging datasets: the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset, the Human Connectome Project test-retest dataset and the OpenPain dataset. For simplicity, we mainly focus on the lateral ventricle and left hippocampus surfaces.
   
 <img src="./Figures/Dataset_summary_0823-1.png" width="300" alt="dataset summary" title="dataset summary"><br/>
-  * Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.
+  *Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.
 
 
 ## Elastic Shape Analysis
