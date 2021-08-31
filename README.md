@@ -100,20 +100,18 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 
 ## Shape-trajectory-on-scalar Regression Analysis
 1) **Evaluation:**\
-   *Evaluation of the shape-trajectory-on-scalar regression on the ADNIGO2 dataset. (a) Histogram of the percentage of improvement in prediction error when comparing the shapetrajectory-on-scalar regression with the baseline model. (b) Examples of original sparse surface, surface reconstructed by the regression’s prediction, and the global mean surface. Color indicates the small patch’s difference level. First row: lateral ventricle; second row: left hippocampus.* 
+   *Evaluation of the shape-trajectory-on-scalar regression on the ADNIGO2 dataset. (a) Histogram of the percentage of improvement in prediction error when comparing the shapetrajectory-on-scalar regression with the baseline model. (b) Examples of original sparse surface, surface reconstructed by the regression’s prediction, and the global mean surface. Color indicates the small patch’s difference level. First row: lateral ventricle; second row: left hippocampus.* <br/>
     <img src="./Figures/ADNI_LV_Regression_Goodoffit_merge.png" width="600" alt="ventricle_regression_goodoffit" title="ventricle_regression_goodoffit"><br/>
     <img src="./Figures/ADNI_Hipp_Regression_Goodoffit_merge.png" width="600" alt="hippocampus_regression_goodoffit" title="hippocampus_regression_goodoffit"><br/>
 
-3) **Global left hippocampus surface trajectories:**\
-   <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
+2) **Covariates’ effect to the surface trajectory:**\
+   **Lateral ventricle:**\
+   *Exploration of the covariates’ effect to the surface trajectory on ADNIGO2 dataset. Panel (i) shows results for the left ventricle and panel (ii) shows results for the left hippocampus. In each sub-panel (a), we fixed gender, marriage status, education years and ApoE4 type and varied the diagnosis status. In each sub-panel (b), we fixed gender, marriage status, education years and diagnosis status, and varied the ApoE4 type.*<br/>
+   <img src="./Figures/ADNI_LV_Regression_Control.jpg" width="600" alt="ventricle_regression_control" title="ventricle_regression_control"><br/>
    
-3) **AD, MCI and NL ventricle surface trajectories:**\
-   <img src="./Figures/AD_mean.gif" width="250" alt="ventricle_AD_mean_trajectory" title="ventricle_AD_mean_trajectory"> <img src="./Figures/MCI_mean.gif" width="250" alt="ventricle_MCI_mean_trajectory" title="ventricle_MCI_mean_trajectory"> <img src="./Figures/NL_mean.gif" width="250" alt="ventricle_NL_mean_trajectory" title="ventricle_NL_mean_trajectory">
+   *(c) Each sub-panel shows the reconstructed shape trajectory by fixing gender, marriage status, education years and ApoE4 type, while varying the diagnosis status. Color on each surface represents shape difference compared with the NC surface at the same age:*<br/>
+   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
+    <img src="./Figures/lv_AD_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
+    <img src="./Figures/lv_MCI_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
+    <img src="./Figures/lv_NL_regression.gif" width="200" alt="ventricle_AD_regression" title="ventricle_AD_regression">
    
-4) **AD, MCI and NL left hippocampus surface trajectories:**\
-   <img src="./Figures/hipp_AD_mean.gif" width="250" alt="hippocampus_AD_mean_trajectory" title="hippocampus_AD_mean_trajectory"> <img src="./Figures/hipp_MCI_mean.gif" width="250" alt="hippocampus_MCI_mean_trajectory" title="hippocampus_MCI_mean_trajectory"> <img src="./Figures/hipp_NL_mean.gif" width="250" alt="hippocampus_NL_mean_trajectory" title="hippocampus_NL_mean_trajectory">
-
-5) **AD, MCI and NL area trajectories comparison:**\
-   <img src="./Figures/ventricle_area_trajectory_comparison.png" width="300" alt="ventricle_area_trajectory_comparison" title="ventricle_area_trajectory_comparison"> <img src="./Figures/ventricle_area_difference_comparison.png" width="300" alt="ventricle_area_difference_comparison" title="ventricle_area_difference_comparison">
-   
-   <img src="./Figures/hippocampus_area_trajectory_comparison.png" width="300" alt="hippocampus_area_trajectory_comparison" title="hippocampus_area_trajectory_comparison"> <img src="./Figures/hippocampus_area_difference_comparison.png" width="300" alt="hippocampus_area_difference_comparison" title="hippocampus_area_difference_comparison">
