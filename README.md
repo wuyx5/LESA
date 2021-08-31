@@ -50,9 +50,9 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 
    Reconstructed surface trajectories of: <br/>
    (c) Subject 1 with PACE; &nbsp; &nbsp;(d) Subject 1 with MGCV; &nbsp; &nbsp; (e) Subject 2 with PACE; &nbsp; &nbsp;(f) Subject 2 with MGCV. <br/>
-   <img src="./Figures/hipp_individual_1_PACE_1.gif" width="150" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE">
-   <img src="./Figures/hipp_individual_1_MGCV.gif" width="150" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV">
-   <img src="./Figures/hipp_individual_2_PACE.gif" width="150" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE">
+   <img src="./Figures/hipp_individual_1_PACE_1.gif" width="150" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE"> &nbsp;
+   <img src="./Figures/hipp_individual_1_MGCV.gif" width="150" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV"> &nbsp;
+   <img src="./Figures/hipp_individual_2_PACE.gif" width="150" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE"> &nbsp;
    <img src="./Figures/hipp_individual_2_MGCV.gif" width="150" alt="hippocampus_indi2_MGCV" title="hippocampus_indi2_MGCV"><br/>
 
 4) **Performance comparison:**\
