@@ -83,9 +83,9 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/ADNI_LV_AD_Comparison_Shape.jpg" width="700" alt="ventricle_AD_Comparison" title="ventricle_AD_Comparison"><br/>
       
    *(c) Reconstructed mean shape trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time:* <br/>
-   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  AD 
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI  
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
+   *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   AD 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI  
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
     <img src="./Figures/lv_AD_mean_shape.gif" width="200" alt="ventricle_AD" title="ventricle_AD">
     <img src="./Figures/lv_MCI_mean_shape.gif" width="200" alt="ventricle_MCI" title="ventricle_MCI">
     <img src="./Figures/lv_NL_mean_shape.gif" width="200" alt="ventricle_NL" title="ventricle_NL">
