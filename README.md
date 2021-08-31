@@ -37,20 +37,20 @@ We densely fit area trajectories and principal coefficients trajectories with tw
 1) **Lateral ventricle trajectories:**\
    (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.<br/>
    
-   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="400" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <br/>
+   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="600" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <br/>
    
    Recovered mean surface trajectories by: <br/>
-    &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(c) MGCV fitting.
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;(c) MGCV fitting.<br/>
     
    <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
   
 2) **Left hippocampus trajectories:**\
    (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.<br/>
    
-   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="400" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> 
+   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="600" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> 
    
    Recovered mean surface trajectories by: <br/>
-    &nbsp; &nbsp; &nbsp; &nbsp;(b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp;(c) MGCV fitting.
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;(c) MGCV fitting.<br/>
     
     <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
    
