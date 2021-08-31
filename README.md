@@ -12,7 +12,7 @@
 
 We have applied LESA to study three different longitudinal brain imaging datasets: the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset, the Human Connectome Project test-retest dataset and the OpenPain dataset. For simplicity, we mainly focus on the lateral ventricle and left hippocampus surfaces.
   
-<img src="./Figures/Dataset_summary_0823-1.png" width="700" alt="dataset summary" title="dataset summary"><br/>
+<img src="./Figures/Dataset_summary_0823-1.png" width="600" alt="dataset summary" title="dataset summary"><br/>
   *Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.*
 
 
@@ -21,8 +21,8 @@ We have applied LESA to study three different longitudinal brain imaging dataset
 Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
 
 1) **Ventricle**\
-   <img src="./Figures/ADNI_LV_PC1_narrow.png" width="400" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
-  *(a) Cumulative variability explained* &nbsp; &nbsp; &nbsp; *(b) Sparse 1st PCs* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Sparse 2nd PCs*
+   <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
+  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <a href="https://www.codecogs.com/eqnedit.php?latex=f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" title="f_{\mu}+t\sqrt{\lambda_{1}}PC_{1}" /></a>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
 2) **Left hippocampus**\
    <img src="./Figures/hippocampus_variability_explained.png" width="250" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <br/>
