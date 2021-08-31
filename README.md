@@ -98,6 +98,12 @@ We densely fit area trajectories and principal coefficients trajectories with tw
     <img src="./Figures/hipp_MCI_mean_shape.gif" width="200" alt="hippocampus_MCI" title="hippocampus_MCI">
     <img src="./Figures/hipp_NL_mean_shape.gif" width="200" alt="hippocampus_NL" title="hippocampus_NL">
 
+## Shape-trajectory-on-scalar Regression Analysis
+1) **Evaluation:**\
+   *Evaluation of the shape-trajectory-on-scalar regression on the ADNIGO2 dataset. (a) Histogram of the percentage of improvement in prediction error when comparing the shapetrajectory-on-scalar regression with the baseline model. (b) Examples of original sparse surface, surface reconstructed by the regression’s prediction, and the global mean surface. Color indicates the small patch’s difference level. First row: lateral ventricle; second row: left hippocampus.* 
+    <img src="./Figures/ADNI_LV_Regression_Goodoffit_merge.png" width="600" alt="ventricle_regression_goodoffit" title="ventricle_regression_goodoffit"><br/>
+    <img src="./Figures/ADNI_Hipp_Regression_Goodoffit_merge.png" width="600" alt="hippocampus_regression_goodoffit" title="hippocampus_regression_goodoffit"><br/>
+
 3) **Global left hippocampus surface trajectories:**\
    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
    
