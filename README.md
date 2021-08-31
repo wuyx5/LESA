@@ -35,21 +35,31 @@ the number of principal components (PCs). As shown here, the use of 33 and 61 PC
 We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
 
 1) **Lateral ventricle trajectories:**\
-   (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories. (b) Recovered mean surface trajectories by PACE fitting. (c) Recovered mean surface trajectories by MGCV fitting.<br/>
+   (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.<br/>
    
-   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="400" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <img src="./Figures/PACE_mean_trajectory.gif" width="200" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="200" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
+   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="400" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <br/>
+   
+   Recovered mean surface trajectories by: <br/>
+    &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(c) MGCV fitting.
+    
+   <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
   
 2) **Left hippocampus trajectories:**\
-   (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories. (b) Recovered mean surface trajectories by PACE fitting. (c) Recovered mean surface trajectories by MGCV fitting. <br/>
+   (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.<br/>
    
-   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="400" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="200" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="200" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
+   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="400" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> 
+   
+   Recovered mean surface trajectories by: <br/>
+    &nbsp; &nbsp; &nbsp; &nbsp;(b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp;(c) MGCV fitting.
+    
+    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
    
 3) **Some individual fitting examples:**\
    Individual surface trajectories fitted with LESA. Panels (a) and (b) show the raw and fitted trajectories for the surface area and PC1 score for three individual subjects.<br/>
    <img src="./Figures/ADNI_Hipp_Individual_2.jpg" width="600" alt="hippocampus_individual" title="hippocampus_individual"> <br/>
 
    Reconstructed surface trajectories of: <br/>
-   (c) Subject 1 with PACE; &nbsp; &nbsp;(d) Subject 1 with MGCV; &nbsp; &nbsp; (e) Subject 2 with PACE; &nbsp; &nbsp;(f) Subject 2 with MGCV. <br/>
+   (c) Sub.1 with PACE; &nbsp; &nbsp;(d) Sub.1 with MGCV; &nbsp; &nbsp; (e) Sub.2 with PACE; &nbsp; &nbsp;(f) Sub.2 with MGCV. <br/>
    <img src="./Figures/hipp_individual_1_PACE_1.gif" width="150" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE"> &nbsp; &nbsp;
    <img src="./Figures/hipp_individual_1_MGCV.gif" width="150" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV"> &nbsp; &nbsp;
    <img src="./Figures/hipp_individual_2_PACE.gif" width="150" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE"> &nbsp; &nbsp;
