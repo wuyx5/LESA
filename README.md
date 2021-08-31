@@ -1,4 +1,4 @@
-#  Longitudinal Elastic Shape Analysis of Brain Subcortical Structures
+#  LESA: Longitudinal Elastic Shape Analysis of Brain Subcortical Structures
 
 ## Introduction
 
