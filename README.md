@@ -76,8 +76,20 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(c) Lateral Ventricle; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (d) Left Hippocampus.* <br/>
    <img src="./Figures/lv_lifespan_trajectory_22-90.gif" width="250" alt="ventricle_lifespan_trajectory" title="ventricle_lifespan_trajectory">
    <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="250" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory">
-   
-2) **Global left hippocampus surface trajectories:**\
+  
+## Group Difference Analysis
+1) **Lateral ventricle:**\
+   *Comparison of shape change patterns among AD, MCI and NC. (a) Mean surface area trajectories of the three groups (blue: AD; red: MCI; yellow: NC). (b) Changing rate of the area trajectories calculated as 100∗(&alpha;(t<sub>i+1</sub>) − &alpha;(t<sub>i</sub>))/&alpha;(t<sub>i</sub>).*<br/> 
+   <img src="./Figures/ADNI_LV_AD_Comparison_Shape.jpg" width="700" alt="ventricle_AD_Comparison" title="ventricle_AD_Comparison"><br/>
+      
+   *(c) Reconstructed mean shape trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time:* <br/>
+   *&nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC* <br/>
+    <img src="./Figures/lv_AD_mean_shape.gif" width="200" alt="ventricle_AD" title="ventricle_AD">
+    <img src="./Figures/lv_MCI_mean_shape.gif" width="200" alt="ventricle_MCI" title="ventricle_MCI">
+    <img src="./Figures/lv_NL_mean_shape.gif" width="200" alt="ventricle_NL" title="ventricle_NL">
+
+
+3) **Global left hippocampus surface trajectories:**\
    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
    
 3) **AD, MCI and NL ventricle surface trajectories:**\
