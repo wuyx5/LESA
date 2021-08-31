@@ -18,17 +18,16 @@ We have applied LESA to study three different longitudinal brain imaging dataset
 
 ## PCA results
 
-Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
+PCA results of the ADNI dataset. (a) shows the Karcher mean of all 1719 surfaces in the ADNIGO2 dataset. Panel (b) shows the cumulative percentage of variance explained by
+the number of principal components (PCs). As shown here, the use of 33 and 61 PCs can represent the 95% variation of all lateral ventricle and left hippocampus surfaces seperately. Panel (c) shows the first PC direction in the shape space by reconstructing the principal geodesic as f<sub>&mu;</sub>+t <span style="white-space: nowrap; font-size:larger">&radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span></span>PC<sub>1</sub>, where PC1 represents the first principal direction. We then bring the temporal labels back (the time of each observation) and plot the area trajectories for 321 subjects in panel (d) and PC1 score trajectories in panel (e).
 
-1) **Ventricle**\
+1) **Lateral Ventricle**\
    <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
-  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>
-  
-  <a href="https://www.codecogs.com/eqnedit.php?latex=f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" title="f_{\mu}+t\sqrt{\lambda_{1}}PC_{1}" /></a>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
+  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
 2) **Left hippocampus**\
-   <img src="./Figures/hippocampus_variability_explained.png" width="250" alt="Hippocampus_variability_explained" title="Hippocampus_variability_explained"> <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <br/>
-  *(a) Cumulative variability explained* &nbsp; &nbsp; &nbsp; *(b) Sparse 1st PCs* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Sparse 2nd PCs*
+   <img src="./Figures/ADNI_Hipp_PC1_narrow.png" width="600" alt="Hippocampus_PCA_result" title="Hippocampus_PCA_result"> <br/>
+  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
 ## Densely Fitting
 
