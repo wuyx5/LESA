@@ -48,7 +48,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
     Mean squared prediction errors of PACE and MGCV.
     <table>
    
-    |          |: **Lateral Ventricle**     :||:   **Left Hippocampus**    :||
+    |          | **Lateral Ventricle**     ||   **Left Hippocampus**    ||
     |          |  **PACE**   |   **MGCV**   |   **PACE**  |   **MGCV**   |
     | **Area** |**112.4383** |   116.2736   | **27.0840** |    31.4153   |
     | **PC1**  |  **0.0367** |    0.0438    |  **0.0246** |    0.0256    |
