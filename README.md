@@ -22,7 +22,7 @@ Then, with global mean surfaces and aligned individual surfaces, we run PCA. For
 
 1) **Ventricle**\
    <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
-  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&mu;<sub>1</sub></span>PC<sub>1</sub>
+  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>
   
   <a href="https://www.codecogs.com/eqnedit.php?latex=f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{\mu}&plus;t\sqrt{\lambda_{1}}PC_{1}" title="f_{\mu}+t\sqrt{\lambda_{1}}PC_{1}" /></a>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
