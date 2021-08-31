@@ -16,10 +16,10 @@ We have applied LESA to study three different longitudinal brain imaging dataset
   *Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.*
 
 
-## PCA results
+## PCA Results
 
-PCA results of the ADNI dataset. (a) shows the Karcher mean of all 1719 surfaces in the ADNIGO2 dataset. Panel (b) shows the cumulative percentage of variance explained by
-the number of principal components (PCs). As shown here, the use of 33 and 61 PCs can represent the 95% variation of all lateral ventricle and left hippocampus surfaces seperately. Panel (c) shows the first PC direction in the shape space by reconstructing the principal geodesic as f<sub>&mu;</sub>+t <span style="white-space: nowrap; font-size:larger">&radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span></span>PC<sub>1</sub>, where PC1 represents the first principal direction. We then bring the temporal labels back (the time of each observation) and plot the area trajectories for 321 subjects in panel (d) and PC1 score trajectories in panel (e).
+PCA results of the ADNI dataset. (a) shows the Karcher mean of all surfaces in the ADNIGO2 dataset. Panel (b) shows the cumulative percentage of variance explained by
+the number of principal components (PCs). As shown here, the use of 33 and 61 PCs can represent the 95% variation of all lateral ventricle and left hippocampus surfaces seperately. Panel (c) shows the first PC direction in the shape space by reconstructing the principal geodesic as f<sub>&mu;</sub>+t <span style="white-space: nowrap; font-size:larger">&radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span></span>PC<sub>1</sub>, where PC1 represents the first principal direction. We then bring the temporal labels back (the time of each observation) and plot the area trajectories for all subjects in panel (d) and PC1 score trajectories in panel (e).
 
 1) **Lateral Ventricle**\
    <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
@@ -27,18 +27,18 @@ the number of principal components (PCs). As shown here, the use of 33 and 61 PC
 
 2) **Left hippocampus**\
    <img src="./Figures/ADNI_Hipp_PC1_narrow.png" width="600" alt="Hippocampus_PCA_result" title="Hippocampus_PCA_result"> <br/>
-  *PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
+  *PCA results of the ADNI’s left hippocampus surfaces. (a) Karcher mean of all LV surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.*
 
-## Densely Fitting
+## Shape Trajectory Fitting Results
 
 We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
-1) **Ventricle area trajectories:**\
-   <img src="./Figures/ventricle_area_sparse.png" width="250" alt="ventricle_area_sparse" title="ventricle_area_sparse"> <img src="./Figures/ventricle_area_PACE.png" width="250" alt="ventricle_area_PACE" title="ventricle_area_PACE"> <img src="./Figures/ventricle_area_MGCV.png" width="250" alt="ventricle_area_MGCV" title="ventricle_area_MGCV"><br/>
-  *(a) Sparse area trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+1) **Lateral ventricle trajectories:**\
+   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="250" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <img src="./Figures/PACE_mean_trajectory.gif" width="250" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.png" width="250" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
+  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) Recovered mean surface trajectories by PACE fitting.* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Recovered mean surface trajectories by MGCV fitting.*
   
 2) **Left hippocampus area trajectories:**\
-   <img src="./Figures/hippocampus_area_sparse.png" width="250" alt="hippocampus_area_sparse" title="hippocampus_area_sparse"> <img src="./Figures/hippocampus_area_PACE.png" width="250" alt="hippocampus_area_PACE" title="hippocampus_area_PACE"> <img src="./Figures/hippocampus_area_MGCV.png" width="250" alt="hippocampus_area_MGCV" title="hippocampus_area_MGCV"><br/>
-  *(a) Sparse area trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="250" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="250" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.png" width="250" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
+  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) Recovered mean surface trajectories by PACE fitting.* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Recovered mean surface trajectories by MGCV fitting.*
   
 3) **Ventricle principal coefficients trajectories:**\
    <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_1st_PACE.png" width="250" alt="ventricle_1st_PACE" title="ventricle_1st_PACE"> <img src="./Figures/ventricle_1st_MGCV.png" width="250" alt="ventricle_1st_MGCV" title="ventricle_1st_MGCV"><br/>
