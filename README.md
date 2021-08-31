@@ -42,10 +42,12 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    
 3) **Some individual fitting examples:**\
    <img src="./Figures/ADNI_Hipp_Individual_2.jpg" width="600" alt="hippocampus_individual" title="hippocampus_individual"> <br/>
+   *Individual surface trajectories fitted with LESA. Panels (a) and (b) show the raw and fitted trajectories for the surface area and PC1 score for three individual subjects.*
    <img src="./Figures/hipp_individual_1_PACE_1.gif" width="200" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE">
    <img src="./Figures/hipp_individual_1_MGCV.gif" width="200" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV">
    <img src="./Figures/hipp_individual_2_PACE.gif" width="200" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE">
    <img src="./Figures/hipp_individual_2_MGCV.gif" width="200" alt="hippocampus_indi2_MGCV" title="hippocampus_indi2_MGCV">
+   *Reconstructed surface trajectories of: &nbsp; &nbsp; (c) Subject 1 with PACE; &nbsp; &nbsp; (d) Subject 1 with MGCV; &nbsp; &nbsp; (e) Subject 2 with PACE; &nbsp; &nbsp; (f) Subject 2 with MGCV;* 
 
 4) **Performance comparison:**\
     Mean squared prediction errors of PACE and MGCV.
