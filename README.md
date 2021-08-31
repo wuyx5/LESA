@@ -33,49 +33,32 @@ the number of principal components (PCs). As shown here, the use of 33 and 61 PC
 
 We densely fit area trajectories and principal coefficients trajectories with two methods: PACE and MGCV, and we compare the performance under two methods.
 1) **Lateral ventricle trajectories:**\
-   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="500" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <img src="./Figures/PACE_mean_trajectory.gif" width="250" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="250" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
-  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) Recovered mean surface trajectories by PACE fitting.* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Recovered mean surface trajectories by MGCV fitting.*
+   <img src="./Figures/ADNI_LV_PACE_MGCV_Comparison.jpg" width="500" alt="ventricle_PACE_MGCV" title="ventricle_PACE_MGCV"> <img src="./Figures/PACE_mean_trajectory.gif" width="200" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="200" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
+  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories. (b) Recovered mean surface trajectories by PACE fitting. (c) Recovered mean surface trajectories by MGCV fitting.*
   
-2) **Left hippocampus area trajectories:**\
-   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="500" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="250" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="250" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
-  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) Recovered mean surface trajectories by PACE fitting.* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Recovered mean surface trajectories by MGCV fitting.*
-  
-3) **Ventricle principal coefficients trajectories:**\
-   <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_1st_PACE.png" width="250" alt="ventricle_1st_PACE" title="ventricle_1st_PACE"> <img src="./Figures/ventricle_1st_MGCV.png" width="250" alt="ventricle_1st_MGCV" title="ventricle_1st_MGCV"><br/>
-   *(a) Sparse 1st PC trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
+2) **Left hippocampus trajectories:**\
+   <img src="./Figures/ADNI_Hipp_PACE_MGCV_Comparison.jpg" width="500" alt="hippocampus_PACE_MGCV" title="hippocampus_PACE_MGCV"> <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="200" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="200" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
+  *(a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories. (b) Recovered mean surface trajectories by PACE fitting. (c) Recovered mean surface trajectories by MGCV fitting.*
    
-   <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse"> <img src="./Figures/ventricle_2nd_PACE.png" width="250" alt="ventricle_2nd_PACE" title="ventricle_2nd_PACE"> <img src="./Figures/ventricle_2nd_MGCV.png" width="250" alt="ventricle_2nd_MGCV" title="ventricle_2nd_MGCV"><br/>
-   *(a) Sparse 2nd PC trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
-   
-4) **Left hippocampus principal coefficients trajectories:**\
-   <img src="./Figures/hippocampus_1st_sparse.png" width="250" alt="hippocampus_1st_sparse" title="hippocampus_1st_sparse"> <img src="./Figures/hippocampus_1st_PACE.png" width="250" alt="hippocampus_1st_PACE" title="hippocampus_1st_PACE"> <img src="./Figures/hippocampus_1st_MGCV.png" width="250" alt="hippocampus_1st_MGCV" title="hippocampus_1st_MGCV"><br/>
-   *(a) Sparse 1st PC trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
-   
-   <img src="./Figures/hippocampus_2nd_sparse.png" width="250" alt="hippocampus_2nd_sparse" title="hippocampus_2nd_sparse"> <img src="./Figures/hippocampus_2nd_PACE.png" width="250" alt="hippocampus_2nd_PACE" title="hippocampus_2nd_PACE"> <img src="./Figures/hippocampus_2nd_MGCV.png" width="250" alt="hippocampus_2nd_MGCV" title="hippocampus_2nd_MGCV"><br/>
-   *(a) Sparse 2nd PC trajectories* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(b) PACE fitting* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) MGCV fitting*
-   
-5) **Some individual fitting examples:**\
+3) **Some individual fitting examples:**\
    <img src="./Figures/ventricle_indexample_1.png" width="250" alt="ventricle_indexample_1" title="ventricle_indexample_1"> <img src="./Figures/ventricle_indexample_2.png" width="250" alt="ventricle_indexample_2" title="ventricle_indexample_2"> <img src="./Figures/ventricle_indexample_3.png" width="250" alt="ventricle_indexample_3" title="ventricle_indexample_3">
    <img src="./Figures/hippocampus_indexample_1.png" width="250" alt="hippocampus_indexample_1" title="hippocampus_indexample_1"> <img src="./Figures/hippocampus_indexample_2.png" width="250" alt="hippocampus_indexample_2" title="hippocampus_indexample_2"> <img src="./Figures/hippocampus_indexample_3.png" width="250" alt="hippocampus_indexample_3" title="hippocampus_indexample_3">
 
-6) **Performance comparison:**\
-    Mean squared error
+4) **Performance comparison:**\
+    Mean squared prediction errors of PACE and MGCV.
     <table>
    
+    |             Lateral Ventricle         |     Left Hippocampus       |
     |          |     PACE    |      MGCV    |     PACE    |      MGCV    |
     | -------- | ----------- | ------------ | ----------- | ------------ |
-    | **Area** |   454.1950  | **266.7515** |    87.7912  |  **69.9117** |
-    | **PC1**  |  **0.0898** |    0.1072    |  **0.0427** |    0.0443    |
-    | **PC2**  |  **0.1122** |    0.1280    |  **0.0815** |    0.0865    |
-    | **PC4**  | **0.1298**  |    0.1351    |  **0.0554** |    0.0584    |
-    | **PC5**  | **0.0944**  |    0.0987    |  **0.1034** |    0.1106    |
-    | **PC6**  | **0.1835**  |    0.1967    |  **0.1068** |    0.1125    | 
-    | **PC7**  | **0.1728**  |    0.1800    |  **0.2110** |    0.2254    |
-    | **PC8**  | **0.1453**  |    0.1443    |  **0.1337** |    0.1380    |
-    | **PC9**  | **0.0591**  |    0.0591    |  **0.1475** |    0.1557    |
-    | **PC10** | **0.1290**  |    0.1406    |  **0.0675** |    0.0688    |
+    | **Area** |**112.4383** |   116.2736   | **27.0840** |    31.4153   |
+    | **PC1**  |  **0.0367** |    0.0438    |  **0.0246** |    0.0256    |
+    | **PC2**  |  **0.0458** |    0.0523    |  **0.0364** |    0.0387    |
+    | **PC3**  |  **0.0530** |    0.0558    |  **0.0290** |    0.0303    |
+    | **PC4**  |  **0.0490** |    0.0511    |  **0.0320** |    0.0337    |
+    | **PC5**  |  **0.0422** |    0.0441    |  **0.0422** |    0.0452    | 
     | **....** |    ....     |      ....    |     ....    |      ....    |
-    | **Average PC MSE** | **0.1233** | 0.1301 |  **0.0943**  |  0.0984  |
+    | **Average PC MSPE** | **0.0536** | 0.0565 |  **0.0423**  |  0.0442  |
   
     </table>
 
