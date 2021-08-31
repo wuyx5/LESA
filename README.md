@@ -12,21 +12,16 @@
 
 We have applied LESA to study three different longitudinal brain imaging datasets: the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset, the Human Connectome Project test-retest dataset and the OpenPain dataset. For simplicity, we mainly focus on the lateral ventricle and left hippocampus surfaces.
   
-<img src="./Figures/Dataset_summary_0823-1.png" width="300" alt="dataset summary" title="dataset summary"><br/>
-  *Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.
+<img src="./Figures/Dataset_summary_0823-1.png" width="700" alt="dataset summary" title="dataset summary"><br/>
+  *Panel (a) shows age distributions in the three datasets. The rest panels show the temporal information on scans for each subject.*
 
 
-## Elastic Shape Analysis
-
-First, we compute the global Karcher mean for ventricle surfaces and left hippocampus surfaces.
-
-  <img src="./Figures/ventricle_mean.png" width="300" alt="Ventricle mean surface" title="Ventricle mean"> <img src="./Figures/hippocampus_mean.png" width="300" alt="Hippocampus mean surface" title="Hippocampus mean"> <br/>
-  &nbsp; *(a) Ventricle Karcher mean surface* &nbsp; &nbsp; &nbsp; &nbsp; *(b) Left hippocampus Karcher mean surface*
+## PCA results
 
 Then, with global mean surfaces and aligned individual surfaces, we run PCA. For ventricle surfaces, 33 principal components can explain over 95% shape variabilities. Meanwhile, left hippocampus surfaces need 61 principal components to explain over 95% shape variabilities.
 
 1) **Ventricle**\
-   <img src="./Figures/ventricle_variability_explained.png" width="250" alt="Ventricle_variability_explained" title="Ventricle_variability_explained"> <img src="./Figures/ventricle_1st_sparse.png" width="250" alt="ventricle_1st_sparse" title="ventricle_1st_sparse"> <img src="./Figures/ventricle_2nd_sparse.png" width="250" alt="ventricle_2nd_sparse" title="ventricle_2nd_sparse"> <br/>
+   <img src="./Figures/ADNI_LV_PC1_narrow.png" width="400" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
   *(a) Cumulative variability explained* &nbsp; &nbsp; &nbsp; *(b) Sparse 1st PCs* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *(c) Sparse 2nd PCs*
 
 2) **Left hippocampus**\
