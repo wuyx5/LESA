@@ -44,7 +44,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/ADNI_Hipp_Individual_2.jpg" width="600" alt="hippocampus_individual" title="hippocampus_individual"> <br/>
    *Individual surface trajectories fitted with LESA. Panels (a) and (b) show the raw and fitted trajectories for the surface area and PC1 score for three individual subjects.*<br/>
    *Reconstructed surface trajectories of:* <br/>
-   *&nbsp; (c) Subject 1 with PACE; &nbsp; &nbsp; &nbsp; &nbsp; (d) Subject 1 with MGCV; &nbsp; &nbsp; &nbsp; &nbsp; (e) Subject 2 with PACE; &nbsp; &nbsp; &nbsp; &nbsp; (f) Subject 2 with MGCV;* <br/>
+   *&nbsp; (c) Subject 1 with PACE; &nbsp; &nbsp; &nbsp; &nbsp; (d) Subject 1 with MGCV; &nbsp; &nbsp; &nbsp; &nbsp; (e) Subject 2 with PACE; &nbsp; &nbsp; &nbsp; &nbsp; (f) Subject 2 with MGCV.* <br/>
    <img src="./Figures/hipp_individual_1_PACE_1.gif" width="200" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE">
    <img src="./Figures/hipp_individual_1_MGCV.gif" width="200" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV">
    <img src="./Figures/hipp_individual_2_PACE.gif" width="200" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE">
@@ -68,10 +68,14 @@ We densely fit area trajectories and principal coefficients trajectories with tw
   
     </table>
 
-## Results
+## Life-span Shape Change
 
-1) **Global ventricle surface trajectories:**\
-   <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory">
+   <img src="./Figures/Lifespan_Trajectory.jpg" width="400" alt="lifespan_trajectory" title="lifespan_trajectory"><br/>
+   *Life-span (22-90 years old) left ventricle and left hippocampus growth trajectories. (a-b) Observed sparse data and fitted mean trajectories (black solid line).*<br/> 
+   *Reconstructed life-span mean surface trajectories. Color on each surface indicates the surface’s deformation size compared with the surface at age 22:*<br/> 
+   *&nbsp; (c) Lateral Ventricle; &nbsp; &nbsp; &nbsp; &nbsp; (d) Left Hippocampus.* <br/>
+   <img src="./Figures/lv_lifespan_trajectory_22-90.gif" width="200" alt="ventricle_lifespan_trajectory" title="ventricle_lifespan_trajectory">
+   <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="200" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory">
    
 2) **Global left hippocampus surface trajectories:**\
    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hipp_PACE_mean_trajectory" title="hipp_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hipp_MGCV_mean_trajectory" title="hipp_MGCV_mean_trajectory">
