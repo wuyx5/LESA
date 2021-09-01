@@ -42,7 +42,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    Recovered mean surface trajectories by: <br/>
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (c) MGCV fitting.<br/>
     
-   <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"> <img src="./Figures/Colorbar2.jpg" width ="40" alt="colorbar" title="colorbar"><br/>
+   <img src="./Figures/PACE_mean_trajectory.gif" width="300" alt="ventricle_PACE_mean_trajectory" title="ventricle_PACE_mean_trajectory"> <img src="./Figures/MGCV_mean_trajectory.gif" width="300" alt="ventricle_MGCV_mean_trajectory" title="ventricle_MGCV_mean_trajectory"><br/>
   
 2) **Left hippocampus trajectories:**\
    (a) Trajectory fitting results of LESA from the observed sparse data. First column: sparse surface area and PC score trajectories. Second and third columns: continuous trajectories fitted by the PACE and MGCV models (black dashed lines: mean trajectories). First row: area trajectories. Second row: PC1 score trajectories.<br/>
@@ -52,7 +52,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    Recovered mean surface trajectories by: <br/>
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (b) PACE fitting; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (c) MGCV fitting.<br/>
     
-    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"> <img src="./Figures/Colorbar2.jpg" width ="40" alt="colorbar" title="colorbar"><br/>
+    <img src="./Figures/hipp_PACE_mean_trajectory.gif" width="300" alt="hippocampus_PACE_mean_trajectory" title="hippocampus_PACE_mean_trajectory"> <img src="./Figures/hipp_MGCV_mean_trajectory.gif" width="300" alt="hippocampus_MGCV_mean_trajectory" title="hippocampus_MGCV_mean_trajectory"><br/>
    
 3) **Some individual fitting examples:**\
    Individual surface trajectories fitted with LESA. Panels (a) and (b) show the raw and fitted trajectories for the surface area and PC1 score for three individual subjects.<br/>
@@ -63,7 +63,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    <img src="./Figures/hipp_individual_1_PACE_1.gif" width="150" alt="hippocampus_indi1_PACE" title="hippocampus_indi1_PACE"> &nbsp; &nbsp;
    <img src="./Figures/hipp_individual_1_MGCV.gif" width="150" alt="hippocampus_indi1_MGCV" title="hippocampus_indi1_MGCV"> &nbsp; &nbsp;
    <img src="./Figures/hipp_individual_2_PACE.gif" width="150" alt="hippocampus_indi2_PACE" title="hippocampus_indi2_PACE"> &nbsp; &nbsp;
-   <img src="./Figures/hipp_individual_2_MGCV.gif" width="150" alt="hippocampus_indi2_MGCV" title="hippocampus_indi2_MGCV"><img src="./Figures/Colorbar2.jpg" width ="30" alt="colorbar" title="colorbar"><br/>
+   <img src="./Figures/hipp_individual_2_MGCV.gif" width="150" alt="hippocampus_indi2_MGCV" title="hippocampus_indi2_MGCV"><br/>
 
 4) **Performance comparison:**\
     Mean squared prediction errors of PACE and MGCV.
@@ -90,8 +90,7 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    Reconstructed life-span mean surface trajectories. Color on each surface indicates the surface’s deformation size compared with the surface at age 22:<br/> 
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(c) Lateral Ventricle; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (d) Left Hippocampus. <br/>
    <img src="./Figures/lv_lifespan_trajectory_22-90.gif" width="250" alt="ventricle_lifespan_trajectory" title="ventricle_lifespan_trajectory">
-   <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="250" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory">
-   <img src="./Figures/Colorbar2.jpg" width ="40" alt="colorbar" title="colorbar"><br/>
+   <img src="./Figures/hipp_lifespan_trajectory_22-90.gif" width="250" alt="hippocampus_lifespan_trajectory" title="hippocampus_lifespan_trajectory"><br/>
   
 ## Group Difference Analysis
 1) **Lateral ventricle:**\
