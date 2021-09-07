@@ -97,21 +97,33 @@ We densely fit area trajectories and principal coefficients trajectories with tw
    Comparison of shape change patterns among AD, MCI and NC. (a) Mean surface area trajectories of the three groups (blue: AD; red: MCI; yellow: NC). (b) Changing rate of the area trajectories calculated as 100∗(&alpha;(t<sub>i+1</sub>) − &alpha;(t<sub>i</sub>))/&alpha;(t<sub>i</sub>).<br/> 
    <img src="./Figures/ADNI_LV_AD_Comparison_Shape.jpg" width="600" alt="ventricle_AD_Comparison" title="ventricle_AD_Comparison"><br/>
       
-   (c) Reconstructed mean shape trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
+   (c) Reconstructed mean **shape** trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC <br/>
-    <img src="./Figures/lv_AD_mean_shape.gif" width="200" alt="ventricle_AD" title="ventricle_AD">
-    <img src="./Figures/lv_MCI_mean_shape.gif" width="200" alt="ventricle_MCI" title="ventricle_MCI">
-    <img src="./Figures/lv_NL_mean_shape.gif" width="200" alt="ventricle_NL" title="ventricle_NL">
+    <img src="./Figures/lv_AD_mean_shape.gif" width="200" alt="ventricle_AD_shape" title="ventricle_AD_shape">
+    <img src="./Figures/lv_MCI_mean_shape.gif" width="200" alt="ventricle_MCI_shape" title="ventricle_MCI_shape">
+    <img src="./Figures/lv_NL_mean_shape.gif" width="200" alt="ventricle_NL_shape" title="ventricle_NL_shape">
+    
+   (d) Reconstructed mean **surface** trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC <br/>
+    <img src="./Figures/lv_AD_mean.gif" width="200" alt="ventricle_AD" title="ventricle_AD">
+    <img src="./Figures/lv_MCI_mean.gif" width="200" alt="ventricle_MCI" title="ventricle_MCI">
+    <img src="./Figures/lv_NL_mean.gif" width="200" alt="ventricle_NL" title="ventricle_NL">
     
 2) **Left hippocampus:**\
    Comparison of shape change patterns among AD, MCI and NC. (a) Mean surface area trajectories of the three groups (blue: AD; red: MCI; yellow: NC). (b) Changing rate of the area trajectories calculated as 100∗(&alpha;(t<sub>i+1</sub>) − &alpha;(t<sub>i</sub>))/&alpha;(t<sub>i</sub>).<br/> 
    <img src="./Figures/ADNI_Hipp_AD_Comparison_Shape.jpg" width="600" alt="hippocampus_AD_Comparison" title="hippocampus_AD_Comparison"><br/>
       
-   (c) Reconstructed mean shape trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
+   (c) Reconstructed mean **shape** trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC <br/>
-    <img src="./Figures/hipp_AD_mean_shape.gif" width="200" alt="hippocampus_AD" title="hippocampus_AD">
-    <img src="./Figures/hipp_MCI_mean_shape.gif" width="200" alt="hippocampus_MCI" title="hippocampus_MCI">
-    <img src="./Figures/hipp_NL_mean_shape.gif" width="200" alt="hippocampus_NL" title="hippocampus_NL">
+    <img src="./Figures/hipp_AD_mean_shape.gif" width="200" alt="hippocampus_AD_shape" title="hippocampus_AD_shape">
+    <img src="./Figures/hipp_MCI_mean_shape.gif" width="200" alt="hippocampus_MCI_shape" title="hippocampus_MCI_shape">
+    <img src="./Figures/hipp_NL_mean_shape.gif" width="200" alt="hippocampus_NL_shape" title="hippocampus_NL_shape">
+    
+   (d) Reconstructed mean **surface** trajectories. Color on the surface represents shape difference compared with the NC surface at the corresponding time: <br/>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MCI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NC <br/>
+    <img src="./Figures/hipp_AD_mean.gif" width="200" alt="hippocampus_AD" title="hippocampus_AD">
+    <img src="./Figures/hipp_MCI_mean.gif" width="200" alt="hippocampus_MCI" title="hippocampus_MCI">
+    <img src="./Figures/hipp_NL_mean.gif" width="200" alt="hippocampus_NL" title="hippocampus_NL"> 
 
 ## Shape-trajectory-on-scalar Regression Analysis
 1) **Evaluation:**\
