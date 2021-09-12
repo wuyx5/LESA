@@ -13,6 +13,10 @@ load Example_data.mat;
 plot_repre_efficiency(dist_elastic,dist_spdm);
 
 %% PACE Fitting
+% Please download PACE Package from
+% https://github.com/functionaldata/PACE_matlab and put it under the main
+% directory
+
 addpath PACE_matlab-master/release2.17/PACE/;
 [age_min,age_max,sparse_t,area_pred,area_mean_estimate,outa,coef_pred,...
     pc_mean_estimate,surf_estimate,surf_mean]=...
