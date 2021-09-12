@@ -1,5 +1,10 @@
 %% Load Example Data
+addpath('~\Code and Example Data\');
 load Example_data.mat;
+
+%% Surface Registration and Computing Karcher Mean with SRNF
+[muF,v] = Karcher_mean(F);
+cd('~\Code and Example Data\');
 
 %% PCA
 [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);

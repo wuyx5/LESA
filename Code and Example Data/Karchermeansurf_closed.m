@@ -1,6 +1,4 @@
-function [muF,initmu,nmv,v] = Karchermeansurf_closed(f1,gridroteval,itermax)
-
-[Theta,Phi,Psi,b] = spherharmbasis(5,50);
+function [muF,initmu,nmv,v] = Karchermeansurf_closed(f1,gridroteval,itermax,Theta,Phi,Psi,b)
 
 [a,~,~,d]=size(f1);
 
@@ -30,8 +28,8 @@ while (iter<itermax && nmvch>1e-8)
         if (sum(sum(sum(muF-f(:,:,:,j))))==0)
             v=zeros(a,a,3);
         else
-            cd('Registration\Surface\Mex\ClosedIan');
-            addpath('Registration\Surface\Matlab\ClosedIan');
+            cd('Code and Example Data\Registration\Surface\Mex\ClosedIan');
+            addpath('Code and Example Data\Registration\Surface\Matlab\ClosedIan');
             [Fnew,F1] = Compute_Elastic_Geod_Surf_Closednewq(muF,f(:,:,:,j),50,Theta,Phi,Psi,b,gridroteval,.1);
              
             for t=1:7
@@ -59,8 +57,6 @@ while (iter<itermax && nmvch>1e-8)
 end
 
 for j=1:d
-    cd('Registration\Surface\Mex\ClosedIan');
-    addpath('Registration\Surface\Matlab\ClosedIan');
     [Fnew,F1] = Compute_Elastic_Geod_Surf_Closednewq(muF,f(:,:,:,j),50,Theta,Phi,Psi,b,gridroteval,.1);
     for t=1:7
         s=(t-1)/6;

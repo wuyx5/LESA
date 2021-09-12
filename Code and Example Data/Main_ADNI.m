@@ -23,6 +23,7 @@
 % Load all surfaces generated as F (50*50*3*N);
 % Load image names as subject_name_list, a N*1 cell, where N is the number
 % of images.
+addpath('~\Code and Example Data\');
 [sub_id,sub_scan_time,sub_scan_id,sub_times,sub_scan_age,sparseF] =...
     data_organization(subject_name_list,F);
 
@@ -30,6 +31,7 @@
 % Compute area; rescale and register surfaces; compute Karcher mean
 [sparse_area] = comp_sparse_area(sparseF,sub_times);
 [muF,v] = Karcher_mean(F);
+cd('~\Code and Example Data\');
 
 %% Step 6: PCA
 [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);
