@@ -1,4 +1,4 @@
-**Code and Example Data for LESA**\
+**Code and Example Data for LESA**
 
 To implement LESA pipeline using some example data (Example_data.mat), please run **Main.m**.
 
