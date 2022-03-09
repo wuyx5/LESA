@@ -25,12 +25,12 @@ the number of principal components (PCs). As shown here, the use of 33 and 61 PC
 
 1) **Lateral Ventricle**\
    PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all lateral ventricle surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.<br/>
-   <img src="./Figures/ADNI_LV_PC1_narrow.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
+   <img src="./Figures/ADNI_LV_PC1.png" width="600" alt="Ventricle_PCA_result" title="Ventricle_PCA_result"> <br/>
   
 
 2) **Left hippocampus**\
    PCA results of the ADNI’s left hippocampus surfaces. (a) Karcher mean of all left hippocampus surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.<br/>
-   <img src="./Figures/ADNI_Hipp_PC1_narrow.png" width="600" alt="Hippocampus_PCA_result" title="Hippocampus_PCA_result"> <br/>
+   <img src="./Figures/ADNI_Hipp_PC1.png" width="600" alt="Hippocampus_PCA_result" title="Hippocampus_PCA_result"> <br/>
 
 
 ## Shape Trajectory Fitting Results
