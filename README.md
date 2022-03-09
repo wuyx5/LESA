@@ -21,7 +21,7 @@ We have applied LESA to study three different longitudinal brain imaging dataset
 ## PCA Results
 
 PCA results of the ADNI dataset. (a) shows the Karcher mean of all surfaces in the ADNIGO2 dataset. Panel (b) shows the cumulative percentage of variance explained by
-the number of principal components (PCs). As shown here, the use of 33 and 61 PCs can represent the 95% variation of all lateral ventricle and left hippocampus surfaces seperately. Panel (c) shows the first PC direction in the shape space by reconstructing the principal geodesic as f<sub>&mu;</sub>+t <span style="white-space: nowrap; font-size:larger">&radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span></span>PC<sub>1</sub>, where PC1 represents the first principal direction. We then bring the temporal labels back (the time of each observation) and plot the area trajectories for all subjects in panel (d) and PC1 score trajectories in panel (e).
+the number of principal components (PCs). As shown here, the use of 32 and 64 PCs can represent the 95% variation of all lateral ventricle and left hippocampus surfaces seperately. Panel (c) shows the first PC direction in the shape space by reconstructing the principal geodesic as f<sub>&mu;</sub>+t <span style="white-space: nowrap; font-size:larger">&radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span></span>PC<sub>1</sub>, where PC1 represents the first principal direction. We then bring the temporal labels back (the time of each observation) and plot the area trajectories for all subjects in panel (d) and PC1 score trajectories in panel (e).
 
 1) **Lateral Ventricle**\
    PCA results of the ADNI’s lateral ventricle surfaces. (a) Karcher mean of all lateral ventricle surfaces. (b) Cumulative percentage of variance explained by the number of PCs. (c) First dominant PC direction reconstructed as <span style="white-space: nowrap; font-size:larger"> f<sub>&mu;</sub>+t &radic;<span style="text-decoration:overline;">&lambda;<sub>1</sub></span>PC<sub>1</sub> </span>. The five shapes in the front view, from left to right, correspond to t = {−1; −0:5; 0; 0:5; 1}. (c) Surface area trajectories. (e) PC1 score trajectories.<br/>
@@ -74,14 +74,14 @@ We densely fit area trajectories and principal coefficients trajectories with tw
     ||**Lateral Ventricle**|**Lateral Ventricle**|**Left Hippocampus**|**Left Hippocampus**|
     | -------- | ----------- | ------------ | ----------- | ------------ |
     |          |  **PACE**   |   **MGCV**   |   **PACE**  |   **MGCV**   |
-    | **Area** |**112.4383** |   116.2736   | **27.0840** |    31.4153   |
-    | **PC1**  |  **0.0367** |    0.0438    |  **0.0246** |    0.0256    |
-    | **PC2**  |  **0.0458** |    0.0523    |  **0.0364** |    0.0387    |
-    | **PC3**  |  **0.0530** |    0.0558    |  **0.0290** |    0.0303    |
-    | **PC4**  |  **0.0490** |    0.0511    |  **0.0320** |    0.0337    |
-    | **PC5**  |  **0.0422** |    0.0441    |  **0.0422** |    0.0452    | 
+    | **Area** |**59.7086** |   70.5375   | **17.7408** |    22.7865   |
+    | **PC1**  |  **0.0357** |    0.0424    |  **0.0238** |    0.0239    |
+    | **PC2**  |  **0.0248** |    0.0256    |  **0.0462** |    0.0474    |
+    | **PC3**  |  **0.0448** |    0.0526    |  **0.0316** |    0.0383    |
+    | **PC4**  |  **0.0208** |    0.0225    |  **0.0695** |    0.0852    |
+    | **PC5**  |  **0.0531** |    0.0580    |  **0.0272** |    0.0293    | 
     | **....** |    ....     |      ....    |     ....    |      ....    |
-    | **Average PC MSPE** | **0.0536** | 0.0565 |  **0.0423**  |  0.0442  |
+    | **Average PC MSPE** | **0.0383** | 0.0400 |  **0.0350**  |  0.0359  |
   
     </table>
 
