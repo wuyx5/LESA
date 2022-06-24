@@ -21,6 +21,8 @@ iter=1;
 nmvch=1;
 initmu=muF;
 
+cd('Registration\Surface\Mex\ClosedIan');
+            
 while (iter<itermax && nmvch>1e-8)
     mv=zeros([a b1 c]);
     
@@ -28,8 +30,8 @@ while (iter<itermax && nmvch>1e-8)
         if (sum(sum(sum(muF-f(:,:,:,j))))==0)
             v=zeros(a,a,3);
         else
-            cd('Code and Example Data\Registration\Surface\Mex\ClosedIan');
-            addpath('Code and Example Data\Registration\Surface\Matlab\ClosedIan');
+%             cd('Registration\Surface\Mex\ClosedIan');
+%             addpath('Registration\Surface\Matlab\ClosedIan');
             [Fnew,F1] = Compute_Elastic_Geod_Surf_Closednewq(muF,f(:,:,:,j),50,Theta,Phi,Psi,b,gridroteval,.1);
              
             for t=1:7

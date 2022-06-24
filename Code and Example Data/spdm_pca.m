@@ -15,7 +15,7 @@ N = size(F_rescale,1);
 muF_SPDM = sum(F_rescale,4)/T;
 muF_SPDM = MakeClosedGrid(muF_SPDM,N);
 
-[A1,~,~] = area_surf_closed(muF_SPDM);
+[A1,~,~,~] = area_surf_geod_closed(muF_SPDM);
 
 muF_SPDM = scale_surf(muF_SPDM,A1);
 [A1,~,multfact1,~] = area_surf_geod_closed(muF_SPDM);
@@ -26,7 +26,7 @@ for j=1:T
     v_SPDM(:,:,:,j)=F_rescale(:,:,:,j)-muF_SPDM;
 end
 
-[S_SPDM,U_SPDM,coef_SPDM]=surfacecovandsample(v_SPDM,muF_SPDM,1,Theta);
-S_SPDM = diag(S_SPDM);
+[S_SPDM,U_SPDM,coef_SPDM]=surf_pca(v_SPDM,muF_SPDM,1);
+% S_SPDM = diag(S_SPDM);
 
 end

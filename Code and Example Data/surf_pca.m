@@ -40,10 +40,12 @@ for j=1:a4
     end
 end
 
-j = 1;
-for i = 1:length(sub_times)
-    sparse_c2{i} = c2(j:j+sub_times(i)-1,:);
-    j = j+sub_times(i);
+if length(sub_times)>1
+    j = 1;
+    for i = 1:length(sub_times)
+        sparse_c2{i} = c2(j:j+sub_times(i)-1,:);
+        j = j+sub_times(i);
+    end
 end
 
 S = diag(S);

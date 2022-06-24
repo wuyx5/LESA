@@ -1,10 +1,13 @@
+clear; close all;
+
 %% Load Example Data
-addpath('~\Code and Example Data\');
+currentFolder = pwd;
 load Example_data.mat;
 
 %% Surface Registration and Computing Karcher Mean with SRNF
+addpath(genpath([currentFolder '\Registration\']));
 [muF,v] = Karcher_mean(F);
-cd('~\Code and Example Data\');
+cd(currentFolder);
 
 %% PCA
 [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);
@@ -18,9 +21,8 @@ cd('~\Code and Example Data\');
 plot_repre_efficiency(dist_elastic,dist_spdm);
 
 %% PACE Fitting
-% Please download PACE Package from
-% https://github.com/functionaldata/PACE_matlab and put it under the main
-% directory
+% PACE Package: https://github.com/functionaldata/PACE_matlab
+% Yao, F., Müller, H.G., Wang, J.L. (2005). Functional data analysis for sparse longitudinal data. J. American Statistical Association 100, 577-590.
 
 addpath PACE_matlab-master/release2.17/PACE/;
 [age_min,age_max,sparse_t,area_pred,area_mean_estimate,outa,coef_pred,...
@@ -49,7 +51,7 @@ plot_individual_area(age_min,age_max,area_pred,area_mean_estimate,outa,sparse_t,
 plot_individual_PC(age_min,age_max,coef_pred,pc_mean_estimate,outa,sparse_t,sparse_coef,idx);
 sliderplot_individual(surf_estimate{idx});
 
-idx = 106;
+idx = 6;
 plot_individual_area(age_min,age_max,area_pred,area_mean_estimate,outa,sparse_t,sparse_area,idx);
 plot_individual_PC(age_min,age_max,coef_pred,pc_mean_estimate,outa,sparse_t,sparse_coef,idx);
 sliderplot_individual(surf_estimate{idx});

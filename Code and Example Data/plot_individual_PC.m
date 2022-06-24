@@ -3,6 +3,7 @@ pc = 1;
 
 figure;
 xlim([age_min age_max]); hold on;
+ylim([-0.1 0.1]); hold on;
 plot(age_min+outa,coef_pred{idx}(:,pc),'b-','LineWidth',2.5,'MarkerSize',20);
 hold on;
 plot(age_min+outa,coef_mean_estimate{pc},'b--','LineWidth',2.5);

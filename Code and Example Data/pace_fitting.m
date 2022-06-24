@@ -24,11 +24,11 @@ area_mean_estimate = getVal(aa,'mu');
 area_pred=FPCAeval(aa,[],0:1:47);
 
 % PC trajectories
-% p = setOptions('yname','x','regular',0,'selection_k', 'FVE','FVE_threshold', 0.999,'screePlot',0, 'designPlot',0,...
-%                'corrPlot',0,'numBins',0, 'verbose','on','newdata',0:1:47,'bwmu_gcv',0,'bwxcov_gcv',0);  
-
 p = setOptions('yname','x','regular',0,'selection_k', 'FVE','FVE_threshold', 0.999,'screePlot',0, 'designPlot',0,...
-               'corrPlot',0,'numBins',0, 'verbose','on','newdata',0:1:47,'bwmu_gcv',0,'bwxcov',[2,2]);  
+               'corrPlot',0,'numBins',0, 'verbose','on','newdata',0:1:47,'bwmu_gcv',0,'bwxcov_gcv',0);  
+
+% p = setOptions('yname','x','regular',0,'selection_k', 'FVE','FVE_threshold', 0.999,'screePlot',0, 'designPlot',0,...
+%                'corrPlot',0,'numBins',0, 'verbose','on','newdata',0:1:47,'bwmu_gcv',0,'bwxcov',[2,2]);  
            
 for i = 1:pc_num
     for j=1:length(sparse_coef)     
