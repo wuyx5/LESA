@@ -21,7 +21,7 @@ iter=1;
 nmvch=1;
 initmu=muF;
 
-cd('Registration\Surface\Mex\ClosedIan');
+cd('.\Registration\Surface\Mex\ClosedIan');
             
 while (iter<itermax && nmvch>1e-8)
     mv=zeros([a b1 c]);
