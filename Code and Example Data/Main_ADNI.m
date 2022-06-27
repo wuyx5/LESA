@@ -30,7 +30,7 @@ currentFolder = pwd;
 
 %% Step 5: Surface Registration and Computing Karcher Mean with SRNF
 % Compute area; rescale and register surfaces; compute Karcher mean
-addpath(genpath([currentFolder '\Registration\']));
+addpath(genpath('./Registration/'));
 [sparse_area] = comp_sparse_area(sparseF,sub_times);
 [muF,v] = Karcher_mean(F);
 cd(currentFolder);
@@ -50,7 +50,7 @@ plot_repre_efficiency(dist_elastic,dist_spdm);
 % PACE Package: https://github.com/functionaldata/PACE_matlab
 % Yao, F., Müller, H.G., Wang, J.L. (2005). Functional data analysis for sparse longitudinal data. J. American Statistical Association 100, 577-590.
 
-addpath PACE_matlab-master/release2.17/PACE/;
+addpath('./PACE_matlab-master/release2.17/PACE/');
 [age_min,age_max,sparse_t,area_pred,area_mean_estimate,outa,coef_pred,...
     pc_mean_estimate,surf_estimate,surf_mean]=...
     pace_fitting(sub_scan_age,sparse_area,sparse_coef,38,muF,U);
