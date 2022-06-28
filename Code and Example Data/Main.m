@@ -7,7 +7,7 @@ load Example_data.mat;
 %% Surface Registration and Computing Karcher Mean with SRNF
 
 % % This step registers the individual surfaces and estimates the Karcher
-% % mean shape. It takes ~3.5 hours. In order to save running time, the
+% % mean shape. It takes ~3.2 hours. In order to save running time, the
 % % results are already saved in saved in step1_Registration_and_Mean.mat. If
 % % running this step is needed, please uncomment the following codes in this
 % % section.
@@ -23,10 +23,10 @@ load Example_data.mat;
 load step1_Registration_and_Mean.mat;
 
 %% PCA
-% % This step conducts shape PCA. It takes ~1 hour. In order to save running
-% % time, the results are already saved in step2_PCA.mat. If running
-% % this step is needed, please uncomment the following codes in this
-% % section.  
+% % This step conducts shape PCA. It takes ~1.2 hour. In order to save running
+% % time, the results are already saved in step2_PCA.mat and step2_SPDM.mat. 
+% % If running this step is needed, please uncomment the following codes in 
+% % this section.  
 
 % [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);
 
@@ -35,6 +35,7 @@ load step1_Registration_and_Mean.mat;
 
 % % Load the saved results
 load step2_PCA.mat;
+load step2_SPDM.mat
 
 %% Figure 6
 % Comparison of SRNF and SPHARM-PDM in the representation efficiency. 
