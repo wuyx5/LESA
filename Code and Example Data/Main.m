@@ -1,6 +1,16 @@
 clear; close all;
 
 %% Load Example Data
+% The example data is from the OpenPain study (https://openpain.org). It
+% contains 112 subjects aged from 21 to 68. 
+%  - F:              429 pre-processed and parameterized left ventricle  
+%                    surfaces of 112 subjects.   
+%  - sparse_area:    calculated area of the surfaces.
+%  - sub_scan_age:   ages of the subjects during each MRI scan.
+%  - sub_times:      total times of MRI scans for each subject (number of 
+%                    surfaces for each subject).
+%  - mycolormap:     color map used for surface trajectory visualization.
+
 currentFolder = pwd;
 load Example_data.mat;
 
