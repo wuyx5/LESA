@@ -1,5 +1,5 @@
-function sliderplot_group_shape(mu_time,color)
-mycolormap = customcolormap(linspace(0,1,11), {'#d83023','#e44d2b','#f66e44','#faac5d','#ffdf93','#eeffee','#adeffe','#75cdec','#5DA0C9','#5981be','#365B93'});
+function sliderplot_group_shape(mu_time,color,mycolormap)
+% mycolormap = customcolormap(linspace(0,1,11), {'#d83023','#e44d2b','#f66e44','#faac5d','#ffdf93','#eeffee','#adeffe','#75cdec','#5DA0C9','#5981be','#365B93'});
 
 f = mu_time(:,:,:,1);
 C = color(:,:,1);

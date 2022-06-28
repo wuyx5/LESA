@@ -1,5 +1,5 @@
-function sliderplot_lifespan(mu_time)
-mycolormap = customcolormap(linspace(0,1,11), {'#d83023','#e44d2b','#f66e44','#faac5d','#ffdf93','#eeffee','#adeffe','#75cdec','#5DA0C9','#5981be','#365B93'});
+function sliderplot_lifespan(mu_time,mycolormap)
+% mycolormap = customcolormap(linspace(0,1,11), {'#d83023','#e44d2b','#f66e44','#faac5d','#ffdf93','#eeffee','#adeffe','#75cdec','#5DA0C9','#5981be','#365B93'});
 
 f = mu_time(:,:,:,1);
 diff = mu_time(:,:,:,end)-mu_time(:,:,:,1);

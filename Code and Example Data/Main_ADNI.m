@@ -29,19 +29,21 @@ currentFolder = pwd;
     data_organization(subject_name_list,F);
 
 %% Step 5: Surface Registration and Computing Karcher Mean with SRNF
-% Compute area; rescale and register surfaces; compute Karcher mean
+% Compute area; rescale and register surfaces; estimate Karcher mean.
 addpath(genpath('./Registration/'));
 [sparse_area] = comp_sparse_area(sparseF,sub_times);
 [muF,v] = Karcher_mean(F);
 cd(currentFolder);
 
 %% Step 6: PCA
+% This step conducts shape PCA.
 [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);
 
 %% SPHARM-PDM
 [S_SPDM,U_SPDM,coef_SPDM,v_SPDM,muF_SPDM]=spdm_pca(F);
 
 %% Figure 6
+% Comparison of SRNF and SPHARM-PDM in the representation efficiency.
 
 [dist_elastic,dist_spdm] = repre_efficiency(U,coef,muF,v,U_SPDM,coef_SPDM,muF_SPDM,v_SPDM);
 plot_repre_efficiency(dist_elastic,dist_spdm);
@@ -55,32 +57,34 @@ addpath('./PACE_matlab-master/release2.17/PACE/');
     pc_mean_estimate,surf_estimate,surf_mean]=...
     pace_fitting(sub_scan_age,sparse_area,sparse_coef,38,muF,U);
 
-%% Figure 4
+%% Figure 5
 % (a) Mean Surface
 plot_mean(muF);
 % (b) Cumulative percentage of variance
 pc_num = plot_cumu_var(S);
 % (c) 1st dominant PC
-sliderplot_PC(muF,U,S);
+sliderplot_PC(muF,U,S,mycolormap);
 % (d) Sparse area trajectories
 plot_sparse_area(age_min,sparse_area,sparse_t);
 % (e) Sparse PC1 trajectories
 plot_sparse_PC(age_min,sparse_coef,sparse_t);
 
 %% Figure 7
+% Plot fitted area and PC1 score trajectories.
 plot_PACE_area(age_min,age_max,area_pred,area_mean_estimate,outa);
 plot_PACE_PC(age_min,age_max,coef_pred,pc_mean_estimate,outa);
 
 %% Figure 8
+% Plot fitted individual area, PC1 score, and surface trajectories.
 idx = 95;
 plot_individual_area(age_min,age_max,area_pred,area_mean_estimate,outa,sparse_t,sparse_area,idx);
 plot_individual_PC(age_min,age_max,coef_pred,pc_mean_estimate,outa,sparse_t,sparse_coef,idx);
-sliderplot_individual_ADNI(surf_estimate{idx});
+sliderplot_individual_ADNI(surf_estimate{idx},mycolormap);
 
 idx = 6;
 plot_individual_area(age_min,age_max,area_pred,area_mean_estimate,outa,sparse_t,sparse_area,idx);
 plot_individual_PC(age_min,age_max,coef_pred,pc_mean_estimate,outa,sparse_t,sparse_coef,idx);
-sliderplot_individual_ADNI(surf_estimate{idx});
+sliderplot_individual_ADNI(surf_estimate{idx},mycolormap);
 
 %% Step 8: Group Camparison (Figure 10)
 % Please apply and download the DXSUM_PDXCONV_ADNIALL.csv table from 
@@ -98,9 +102,9 @@ plot_group_area(area_AD_mean,area_MCI_mean,area_NL_mean,area_AD_diff,...
                 area_MCI_diff,area_NL_diff);
             
 % AD shape trajectory
-sliderplot_group_shape(AD_mean_shape,AD_color);
+sliderplot_group_shape(AD_mean_shape,AD_color,mycolormap);
 % MCI shape trajectory
-sliderplot_group_shape(MCI_mean_shape,MCI_color);
+sliderplot_group_shape(MCI_mean_shape,MCI_color,mycolormap);
 % NC shape trajectory
-sliderplot_group_shape(NL_mean_shape,NL_color);
+sliderplot_group_shape(NL_mean_shape,NL_color,mycolormap);
 
