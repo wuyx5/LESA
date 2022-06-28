@@ -37,11 +37,13 @@ load step1_Registration_and_Mean.mat;
 load step2_PCA.mat;
 load step2_SPDM.mat
 
-%% Figure 6
+%% Representation Efficiency
 % Comparison of SRNF and SPHARM-PDM in the representation efficiency. 
 % This step takes ~8 minutes.
 
 [dist_elastic,dist_spdm] = repre_efficiency(U,coef,muF,v,U_SPDM,coef_SPDM,muF_SPDM,v_SPDM);
+
+%% Figure 6
 plot_repre_efficiency(dist_elastic,dist_spdm);
 
 %% PACE Fitting
