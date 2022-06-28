@@ -28,7 +28,7 @@ load Example_data.mat;
 % % Load the saved results
 load step1_Registration_and_Mean.mat;
 
-% % If running this step is needed, please uncomment lines 36-38.
+% % If running this step is needed, please uncomment lines 35-37.
 % % Parts of the codes for surface registration have only been compiled for
 % % the Windows OS. 
 % 
