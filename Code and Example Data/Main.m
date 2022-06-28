@@ -1,27 +1,34 @@
 clear; close all;
 
-%% Load Example Data
-% The example data is from the OpenPain study (https://openpain.org). It
-% contains 112 subjects aged from 21 to 68. 
-%  - F:              429 pre-processed and parameterized left ventricle  
-%                    surfaces of 112 subjects.   
-%  - sparse_area:    calculated area of the surfaces.
-%  - sub_scan_age:   ages of the subjects during each MRI scan.
-%  - sub_times:      total times of MRI scans for each subject (number of 
-%                    surfaces for each subject).
-%  - mycolormap:     color map used for surface trajectory visualization.
+%This the main matlab file to reproduce figures in 
+% Z. Zhang, Y. Wu, D. Xiong, J. G. Ibrahim, A. Srivastava and Hongtu Zhu
+% (2022). "LESA: Longitudinal  Elastic Shape  Analysis of  Brain
+% Subcortical Structures", JASA. 
 
+%% Load Example Data
 currentFolder = pwd;
 load Example_data.mat;
+
+% The example data is from the OpenPain study (https://urldefense.com/v3/__https://openpain.org__;!!PhOWcWs!1XyUS01wuV_t_8bGJPgJH9Akh92HnMkagEdVB9Tq7Qm0Yj9KFPlbh75jcQ6i7dZYMHtMUzNWvqjPsogLnn8IYUE$ ). It contains 112 subjects aged from 21 to 68.
+%  - F: 429 pre-processed and parameterized left ventricle surfaces of 112 subjects.  
+%  - sparse_area: calculated area of the surfaces.
+%  - sub_scan_age: ages of the subjects during each MRI scan.
+%  - sub_times: total times of MRI scans for each subject (number of surfaces for each subject).
+%  - mycolormap: color map used for surface trajectory visualization.
+
 
 %% Surface Registration and Computing Karcher Mean with SRNF
 
 % % This step registers the individual surfaces and estimates the Karcher
-% % mean shape. It takes ~3.2 hours. In order to save running time, the
-% % results are already saved in saved in step1_Registration_and_Mean.mat. If
-% % running this step is needed, please uncomment the following codes in this
-% % section.
+% % mean shape. 
 
+% % It takes ~3 hours. In order to save running time, intermediate results 
+% % are saved into step1_Registration_and_Mean.mat. Here we will load this file.
+
+% % Load the saved results
+load step1_Registration_and_Mean.mat;
+
+% % If running this step is needed, please uncomment lines 36-38.
 % % Parts of the codes for surface registration have only been compiled for
 % % the Windows OS. 
 % 
@@ -29,23 +36,23 @@ load Example_data.mat;
 % [muF,v] = Karcher_mean(F);
 % cd(currentFolder);
 
-% % Load the saved results
-load step1_Registration_and_Mean.mat;
 
 %% PCA
-% % This step conducts shape PCA. It takes ~1.2 hour. In order to save running
-% % time, the results are already saved in step2_PCA.mat and step2_SPDM.mat. 
-% % If running this step is needed, please uncomment the following codes in 
-% % this section.  
+% % This step conducts shape PCA. 
+% 
+% % It takes ~1.2 hour. To save time, intermediate results are already saved into 
+% % step2_PCA.mat and step2_SPDM.mat. Here we directly load them:
+load step2_PCA.mat;
+load step2_SPDM.mat
+
+%
+% % If running this step is needed, please uncomment lines 51-54.
 
 % [S,U,coef,sparse_coef]=surf_pca(v,muF,sub_times);
 
-% % SPHARM-PDM
+% % comparison with the SPHARM-PDM
 % [S_SPDM,U_SPDM,coef_SPDM,v_SPDM,muF_SPDM]=spdm_pca(F);
 
-% % Load the saved results
-load step2_PCA.mat;
-load step2_SPDM.mat
 
 %% Representation Efficiency
 % Comparison of SRNF and SPHARM-PDM in the representation efficiency. 
@@ -57,7 +64,7 @@ load step2_SPDM.mat
 plot_repre_efficiency(dist_elastic,dist_spdm);
 
 %% PACE Fitting
-% PACE Package: https://github.com/functionaldata/PACE_matlab
+% PACE Package: https://urldefense.com/v3/__https://github.com/functionaldata/PACE_matlab__;!!PhOWcWs!1XyUS01wuV_t_8bGJPgJH9Akh92HnMkagEdVB9Tq7Qm0Yj9KFPlbh75jcQ6i7dZYMHtMUzNWvqjPsogLnbd7-8U$ 
 % Yao, F., Müller, H.G., Wang, J.L. (2005). Functional data analysis for sparse longitudinal data. J. American Statistical Association 100, 577-590.
 % This step takes ~1 minute.
 
